@@ -1,15 +1,33 @@
-# node-red-contrib-alexa-remote-cakebaked
+# node-red-contrib-alexa-remote2-applestrudel
 
-> Forked from [586837r/node-red-contrib-alexa-remote2](https://github.com/586837r/node-red-contrib-alexa-remote2) to keep dependencies up to date.
+> Forked from [cakebake/node-red-contrib-alexa-remote-cakebaked](https://github.com/cakebake/node-red-contrib-alexa-remote-cakebaked) which was forked from [586837r/node-red-contrib-alexa-remote2](https://github.com/586837r/node-red-contrib-alexa-remote2) to keep dependencies up to date.
 
 This is a collection of Node-RED nodes for interacting with the Alexa API.
 You can emulate routine behaviour, control and query your devices and much more!
 
 All functionality is from [alexa-remote2](https://www.npmjs.com/package/alexa-remote2).
-The goal is to expose all of [alexa-remote2](https://www.npmjs.com/package/alexa-remote2)s functionality in node-red nodes.
+The goal is to expose all of its functionality in node-red nodes.
 
 - [Changelog](CHANGELOG.md)
 - [Examples](examples.md)
+
+### **Migration**
+In case you've already installed Node-RED nodes from [alexa-cakebaked](https://www.npmjs.com/package/node-red-contrib-alexa-cakebaked) or [alexa-remote2](https://www.npmjs.com/package/node-red-contrib-alexa-remote2) the installation won't work due to conflicting names. You have 2 options:
+
+#### **Command Line**
+```
+node-red admin remove node-red-contrib-alexa-remote2
+node-red admin remove ode-red-contrib-alexa-cakebaked
+node-red admin install node-red-contrib-alexa-remote2-applestrudel
+````
+
+#### **Node-RED UI**
+1. Export all of your flows to a file (Menu -> Export -> all flows -> Download) 
+2. Delete all flows (Double Click on each Tab -> Delete) 
+3. Uninstall `node-red-contrib-alexa-remote2` or `node-red-contrib-alexa-cakebaked` (Menu -> Manage Palette -> Palette -> Nodes -> remove)
+4. Search and install `node-red-contrib-alexa-remote-applestrudel`
+5. Reimport all flows from file (Menu -> Import -> Clipboard -> select a file to upload)
+6. Restart Node-RED
 
 ### **Setup**
 
