@@ -1,4 +1,6 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.1**
+  - Clarify installation process and fix typos
 - **5.0.0**
   - fork project from <https://github.com/cakebake/node-red-contrib-alexa-remote-cakebaked>
   - Updates dependency alexa-remote2 to v3.8.1

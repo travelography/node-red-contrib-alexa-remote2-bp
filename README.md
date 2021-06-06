@@ -17,17 +17,19 @@ In case you've already installed Node-RED nodes from [alexa-cakebaked](https://w
 #### **Command Line**
 ```
 node-red admin remove node-red-contrib-alexa-remote2
-node-red admin remove ode-red-contrib-alexa-cakebaked
+node-red admin remove node-red-contrib-alexa-cakebaked
 node-red admin install node-red-contrib-alexa-remote2-applestrudel
 ````
 
 #### **Node-RED UI**
 1. Export all of your flows to a file (Menu -> Export -> all flows -> Download) 
-2. Delete all flows (Double Click on each Tab -> Delete) 
-3. Uninstall `node-red-contrib-alexa-remote2` or `node-red-contrib-alexa-cakebaked` (Menu -> Manage Palette -> Palette -> Nodes -> remove)
-4. Search and install `node-red-contrib-alexa-remote-applestrudel`
-5. Reimport all flows from file (Menu -> Import -> Clipboard -> select a file to upload)
-6. Restart Node-RED
+2. Delete all flows (Double Click on each Tab -> Delete)
+3. Delete configuration node `alex-remote-account node` (Menu -> Configuration Nodes)
+4. Deploy empty state
+5. Uninstall `node-red-contrib-alexa-remote2` or `node-red-contrib-alexa-cakebaked` (Menu -> Manage Palette -> Palette -> Nodes -> remove)
+6. Search and install `node-red-contrib-alexa-remote-applestrudel`
+7. Reimport all flows from file (Menu -> Import -> Clipboard -> select a file to upload)
+8. Restart Node-RED
 
 ### **Setup**
 
