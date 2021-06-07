@@ -24,7 +24,7 @@ node-red admin install node-red-contrib-alexa-remote2-applestrudel
 #### **Node-RED UI**
 1. Export all of your flows to a file (Menu -> Export -> all flows -> Download) 
 2. Delete all flows (Double Click on each Tab -> Delete)
-3. Delete configuration node `alex-remote-account node` (Menu -> Configuration Nodes)
+3. Delete configuration node `alex-remote-account` node (Menu -> Configuration Nodes) and write down settings (Cookie path, refresh time)
 4. Deploy empty state
 5. Uninstall `node-red-contrib-alexa-remote2` or `node-red-contrib-alexa-cakebaked` (Menu -> Manage Palette -> Palette -> Nodes -> remove)
 6. Search and install `node-red-contrib-alexa-remote-applestrudel`
@@ -56,11 +56,3 @@ automatic.
 11. Select a device in the *Alexa Routine* node devices field.
 
 Now trigger the *Alexa Routine* Node with any message and your Alexa will say "Hello World!". (Hopefully!)
-
-### **Guides**
-
-These are few community guides that can help you install the plugin/module. If you find more let us know.
-
-- [Alexa Text-To-Speech - How-To (2020)](https://youtu.be/vj9K0O_3zxI)
-- [Alexa TTS using Node-RED – How-To (2020)](https://peyanski.com/alexa-tts-how-to/)
-- [Node Red Alexa Remote2](https://tech.scargill.net/node-red-alexa-remote2/)
