@@ -1,3 +1,9 @@
 /node_modules
 /nodes/markdown/*.html
 .DS_Store
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/node-red-contrib-alexa-remote2-applestrudel.iml
+/package-lock.json
+/.idea/vcs.xml
+/.idea/.gitignore
