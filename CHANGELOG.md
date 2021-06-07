@@ -1,4 +1,6 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.2**
+  - Incorporate `textCommand` from mbalduccini (https://github.com/586837r/node-red-contrib-alexa-remote2/pull/181/files)
 - **5.0.1**
   - Clarify installation process and fix typos
 - **5.0.0**
