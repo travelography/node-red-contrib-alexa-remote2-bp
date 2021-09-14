@@ -48,6 +48,7 @@ node-red admin install node-red-contrib-alexa-remote2-applestrudel
    | FR  | layla.amazon.de     | amazon.fr     | de-DE    |
    | ITA | alexa.amazon.it     | amazon.it     | it-IT    |
    | AUS | alexa.amazon.com.au | amazon.com.au | en-US    |
+   | ES  | alexa.amazon.es     | amazon.es     | es-ES    |
    
 4. Set **This IP** to the ip of your Node-RED server
 5. Enter a **File Path** to save the authentication result so following authentications will be
