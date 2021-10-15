@@ -30,7 +30,7 @@ node-red admin install node-red-contrib-alexa-remote2-applestrudel
 3. Delete configuration node `alex-remote-account` node (Menu -> Configuration Nodes) and write down settings (Cookie path, refresh time)
 4. Deploy empty state
 5. Uninstall `node-red-contrib-alexa-remote2` or `node-red-contrib-alexa-cakebaked` (Menu -> Manage Palette -> Palette -> Nodes -> remove)
-6. Search and install `node-red-contrib-alexa-remote-applestrudel`
+6. Search and install `node-red-contrib-alexa-remote2-applestrudel`
 7. Reimport all flows from file (Menu -> Import -> Clipboard -> select a file to upload)
 8. Restart Node-RED
 
