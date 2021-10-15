@@ -1,4 +1,11 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.6**
+  - Add option to configure "on" in defined language to allow play music on groups hack in all languages
+- **5.0.5**
+  - Updates dependency alexa-remote2 to v4.0.3
+- **5.0.4**
+  - Filter WHA devices (`Everywhere`)
+  - Add hack to play music on Groups
 - **5.0.3**
   - Updates dependency alexa-remote2 to v4.0.1
 - **5.0.2**
