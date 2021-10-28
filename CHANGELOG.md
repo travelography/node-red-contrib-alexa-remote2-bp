@@ -1,4 +1,6 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.7**
+  - TactfulElf: Fixed Issue with devices registered on different accounts in an Alexa Household (https://github.com/bbindreiter/node-red-contrib-alexa-remote2-applestrudel/pull/20). Redeploy all nodes after upgrade. 
 - **5.0.6**
   - Add option to configure "on" in defined language to allow play music on groups hack in all languages
 - **5.0.5**
