@@ -1,4 +1,6 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.19**
+  - Updates dependency alexa-remote2 to v5.7.4
 - **5.0.18**
   - Updates dependency alexa-remote2 to v5.7.3
   - Add disclaimer to avoid polling
