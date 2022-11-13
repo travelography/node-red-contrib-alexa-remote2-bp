@@ -1,4 +1,7 @@
 **node-red-contrib-alexa-remote2-applestrudel**
+- **5.0.23**
+  - Prevent excessive polling and setting of device states
+  - Updates dependency alexa-remote2 to v5.10.0
 - **5.0.22**
   - Updates dependency alexa-remote2 to v5.8.3
 - **5.0.21**
