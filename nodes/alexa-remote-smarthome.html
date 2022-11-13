@@ -1119,7 +1119,7 @@
 					},
 				});
 			const disclaimerHeader = $('<h3>Please avoid polling!</h3>').insertBefore(inputs);
-			const disclaimerText = $('<p>If your use-case requires it make sure to keep the interval as high as possible.</p>').css({ margin: '0px 0px 24px 0px' }).insertBefore(inputs);
+			const disclaimerText = $('<p>If your use-case requires it, you must keep the interval above 5 minutes, otherwise an error will be thrown.</p>').css({ margin: '0px 0px 24px 0px' }).insertBefore(inputs);
 
 			const select = arSelect(data.option, ['get', 'query', 'action', 'discover', 'forget']);
 			arFormRow(select, 'Select', 'fa fa-sort').insertBefore(inputs);
